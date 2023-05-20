@@ -37,7 +37,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQX-M7-fz9"/>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5g-Ta-iqo"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball1" translatesAutoresizingMaskIntoConstraints="NO" id="yoB-Hv-o9a">
@@ -61,7 +61,6 @@
                     </view>
                     <connections>
                         <outlet property="ballImageView" destination="yoB-Hv-o9a" id="bol-fn-lq4"/>
-                        <outlet property="handlePressAskButton" destination="qIC-bF-1wz" id="kUi-Cy-0JR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
